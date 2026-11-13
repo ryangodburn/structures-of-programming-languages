@@ -1,0 +1,12 @@
+VARIABLE another 10 allot  ok
+here CONSTANT endit  ok
+another CONSTANT anotherref  ok
+another 20 - 100 dump
+7FAC43B4: 07 00 00 80  61 6E 6F 74 - 68 65 72 20  E0 14 40 00  ....another ..@.
+7FAC43C4: 00 00 00 00  00 00 00 00 - 00 00 00 00  00 00 00 00  ................
+7FAC43D4: 00 00 20 20  B0 43 AC 7F - 05 00 00 80  65 6E 64 69  ..  .C......endi
+7FAC43E4: 74 20 20 20  CA 14 40 00 - 00 00 00 00  D6 43 AC 7F  t   ..@......C..
+7FAC43F4: D8 43 AC 7F  0A 00 00 80 - 61 6E 6F 74  68 65 72 72  .C......anotherr
+7FAC4404: 65 66 20 20  CA 14 40 00 - 00 00 00 00  C8 43 AC 7F  ef  ..@......C..
+7FAC4414: 00 00 00 00              -                           ....
+ ok
